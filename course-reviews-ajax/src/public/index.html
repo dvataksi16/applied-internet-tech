@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet">
+		<link rel="stylesheet" href="/stylesheets/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<h1><span>AIT</span>Y-THREE ISSA B</h1>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="/">All Reviews</a></li>
+				</ul>
+			</nav>
+			<div id="content">
+				<h2>Add or Filter Reviews</h2>
+				<div class="form-container">
+					<form id="create" method="POST" action="/reviews/create">
+						<p><label for="name">Name:</label> <input id="name" type="text" name="name" required></p>
+						<label for="semester">Semester:</label>
+						<select id="semester" class="semester" name="semester">
+							<option value="Fall">Fall</option>
+							<option value="Spring">Spring</option>
+							<option value="Summer">Summer</option>
+						</select>
+						</p>
+						<p><label for="year">Year:</label> <input id="year" class="year" type="text" name="year" required></p>
+						<p><label for="review">Review:</label> <input type="text" id="review" name="review"></p>
+						<p><input id="addBtn" type="submit" value="Add"></p>
+					</form>
+				</div>
+				<div class="form-container">
+					<form method="GET" action="/">
+						<p>
+						Semester:
+						<select id="filterSemester" name="semester" class="semester">
+							<option value="">All</option>
+							<option value="Fall">Fall</option>
+							<option value="Spring">Spring</option>
+							<option value="Summer">Summer</option>
+						</select>
+						</p>
+						<p>Year: <input type="text" id="filterYear" name="year" class="year" maxlength="4"></p>
+						<input id="filterBtn" type="submit" value="Filter">
+					</form>
+				</div>
+				<table>
+					<thead>
+						<th>Name</th>
+						<th>Semester</th>
+						<th>Year</th>
+						<th>Review</th>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+				<script src="js/main.js"></script>
+			</div>
+		</div>
+	</body>
+</html>
+

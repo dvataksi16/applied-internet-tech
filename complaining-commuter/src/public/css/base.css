@@ -1,0 +1,90 @@
+body{
+  background-color: lightgrey;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+h1{
+  color: darkblue;
+  text-align: center;
+  border: 5px solid yellow;
+}
+#pic{
+  background: darkgray;
+}
+h3{
+  font-family: monospace;
+  color: indigo;
+}
+form{
+  border: 5px solid yellow;
+  padding: 40px;
+  font-family: sans-serif;
+}
+#footer {
+  background: darkgray;
+  padding: 40px;
+}
+
+a{	
+	color: white;
+  background: darkblue;
+	font-size: 20px;
+	border: 5px solid yellow;
+  padding: 2px;
+	padding: 5px;
+}
+
+.lineA{
+  background: blue;
+  color: white;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display:inline-block;
+}
+.lineR{
+  background: yellow;
+  color: white;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display:inline-block;
+}
+.lineG{
+  background: lightgreen;
+  color: white;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display:inline-block;
+}
+
+.lineF{
+  background: orange;
+  color: white;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display:inline-block;
+}
+.line4{
+  background: green;
+  color: white;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display:inline-block;
+}
+
+
+
+
+
+
+

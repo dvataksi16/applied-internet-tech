@@ -1,0 +1,27 @@
+
+<link rel='stylesheet' href= '/css/base.css'/>
+
+<h3> MY REVIEWS </h3>
+
+	<br>
+	<table>
+		<tr>
+			<th>Course Number</th>
+			<th>Course Name</th>
+			<th>Semester</th>
+			<th>Year</th>
+			<th>Professor</th>
+			<th>Review</th>
+		</tr>
+		{{#each reviews}}
+			<tr>
+				<td>{{courseNumber}}</td>
+				<td>{{courseName}}</td>
+				<td>{{semester}}</td>
+				<td>{{year}}</td>
+				<td>{{professor}}</td>
+				<td>{{review}}</td>
+			</tr>
+		{{/each}}
+	</table>
+	

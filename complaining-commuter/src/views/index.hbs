@@ -1,0 +1,16 @@
+<link href="/stylesheets/style.css" type="text/css" rel="stylesheet">
+<h3> {{title}}</h3>
+<form  method = "GET" action = "">
+	Only show me complaints on the <input type = "text" name = "subwayLine" value = ""> Line
+	<input type = "Submit">
+</form>
+<br>
+{{#each content}}
+	<li class="line{{subwayLine}}"> {{ subwayLine }} </li> -- {{ complaint }}
+	<br>
+{{/each}}
+
+
+
+
+

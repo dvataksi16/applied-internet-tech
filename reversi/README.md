@@ -1,2 +1,3 @@
-Denisa Vataksi dv758
-Homework #01 - Reversi
+#Reversi/Othello
+
+*An interactive 2-player (computer vs human player) Reversi/Othello game.

@@ -1,0 +1,32 @@
+{
+  "name": "dv758-homework02",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0480-008-spring-2018/dv758-homework02.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0480-008-spring-2018/dv758-homework02/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-008-spring-2018/dv758-homework02#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.17.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "mocha-sinon": "^2.0.0",
+    "sinon": "^4.2.2"
+  },
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}

@@ -1,0 +1,25 @@
+body{
+	margin: 20px;
+	background: lightyellow;
+	text-align: center;
+}
+
+.button{
+	padding: 10px;
+	margin: 5px;
+	box-sizing: border-box;
+	border: 5px solid black;
+	display: block;
+}
+
+p{
+	color: navy;
+}
+
+.list{
+	text-align: left;
+}
+
+ol{
+	font-weight: bold;
+}

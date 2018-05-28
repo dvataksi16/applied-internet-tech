@@ -1,0 +1,10 @@
+<h1>{{username}}'s Articles!</h1>
+{{#if articles.length}}
+	{{#each articles as |a|}}
+		<ol class = "list">
+			<li><a href={{a.url}}>{{a.title}}</a></li>
+		</ol>
+	{{/each}}
+{{else}}
+<a href="/article/add"> Add Articles Here </a>
+{{/if}}
