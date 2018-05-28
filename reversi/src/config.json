@@ -1,0 +1,15 @@
+{
+ "boardPreset": {
+     "playerLetter": "X",
+     "board": [ 
+                 " ", " ", " ", " ",  
+                 "X", "O", "X", " ",  
+                 " ", "X", "O", " ",  
+                 " ", " ", " ", " "
+     ]
+ },
+ "scriptedMoves": {
+     "player": ["A2", "D3"],
+     "computer": ["C1", "A3"]
+ }
+}
